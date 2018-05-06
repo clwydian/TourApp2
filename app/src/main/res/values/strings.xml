@@ -1,32 +1,30 @@
 <resources>
     <string name="app_name">My Secret Blackpool</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="cinema1text">"The Regent Cinema\n\n reminds us of the effort designers used to put into building facades"</string>
-    <string name="cinema2text">"Inside is the surprise\nas this building holds antiques and bric-a-brac enough for a full day's browsing"+#8230</string>
-    <string name="cinema3text">"and upstairs you will find a Victorian tea room amongst the treasures" + #8230</string>
-    <string name="cinema4text">#8230 + "And there is more" + #8230 + "\n The Circle seating remains and this antique shop, tearoom, still shows classic films!"</string>
+    <string name="cinema2text">"Inside is the surprise\nas this building holds antiques and bric-a-brac enough for a full day's browsing . . "</string>
+    <string name="cinema3text">"and upstairs you will find a Victorian tea room amongst the treasures . . "</string>
+    <string name="cinema4text">". . And there is more . . \n The Circle seating remains and this antique shop, tearoom, still shows classic films!"</string>
     <string name="cinematext">"\n\n"</string>
     <string name="start1text">"Blackpool\n\nThe first seaside town with electric street lights.\n  Blackpool Tower is famous"</string>
-    <string name="start2text">"Don't forget the 3 Piers\nThe Funfair\nThe 'penny' arcades\nThe donkeys\n" + #8230 + "and the sand!"</string>
-    <string name="start3text">"But, But But!\nBeneath the glitter and faded glory,\n there lie treasures,\nand here are my favourite" + #8230 + "\nSIX BLACKPOOL SECRETS"</string>
+    <string name="start2text">"Don't forget the 3 Piers\nThe Funfair\nThe 'penny' arcades\nThe donkeys\n  . .  and the sand!"</string>
+    <string name="start3text">"But, But But!\nBeneath the glitter and faded glory,\n there lie treasures,\nand here are my favourite . . \nSIX BLACKPOOL SECRETS"</string>
     <string name="starttext">"\n\n\n>> More>> this>> way>>\n"</string>
-    <string name="grand1text">"The Grand Theatre\n\n is a vibrant and busy place.  \nDesigned by Frank Matcham, theatre architect, the building outside and in is a show all to itself" + #8230</string>
+    <string name="grand1text">"The Grand Theatre\n\n is a vibrant and busy place.  \nDesigned by Frank Matcham, theatre architect, the building outside and in is a show all to itself . . "</string>
     <string name="grand2text">"Art Deco and a Mackintosh 'style'"</string>
     <string name="grandtext">"\n\n"</string>
     <string name="grundy1text">"The Grundy Art Gallery\n\n is a free to enter gallery showcasing local and international talent."</string>
-    <string name="grundy2text">"This artist paints kaleidoscopic planets" + #8230</string>
-    <string name="grundy3text">#8230 +"and builds indoor piers" + #8230" + "  this one is on tour!"</string>
+    <string name="grundy2text">"This artist paints kaleidoscopic planets . . "</string>
+    <string name="grundy3text">" . . and builds indoor piers . . this one is on tour!"</string>
     <string name="grundytext">"\n\n"</string>
-    <string name="tram1text">"The promenade\n can be travelled by modern, almost silent, tram" + #8230</string>
-    <string name="tram2text">#8230 + "but who wouldn't want to catch a\nHeritage Tour tram,\n some of them serve fish and chips!"</string>
+    <string name="tram1text">"The promenade\n can be travelled by modern, almost silent, tram  . . "</string>
+    <string name="tram2text">". . but who wouldn't want to catch a\nHeritage Tour tram,\n some of them serve fish and chips!"</string>
     <string name="tramtext">"\n\n***\n\n"</string>
-    <string name="spanish1text">"The Winter Gardens\n originally a weather proof promenade,\n have been restored into an Art Deco masterpiece" + #8230</string>
-    <string name="spanish2text">"Glass ceilings, Mazzei's Art Deco tea room, a statue of the entertainers Morcambe and Wise" + #8230</string>
+    <string name="spanish1text">"The Winter Gardens\n originally a weather proof promenade,\n have been restored into an Art Deco masterpiece . . "</string>
+    <string name="spanish2text">"Glass ceilings, Mazzei's Art Deco tea room, a statue of the entertainers Morcambe and Wise . . "</string>
     <string name="spanish3text">"and bar designed like a galleon 'ship of the line' and yet incredibly all that carved wood, is plasterwork!\n\n"</string>
     <string name="spanishtext">"\n\n"</string>
-    <string name="graffitti1text">"Don't draw on the walls!\n  Unless" + #8230 + " you are an artist" + #8230</string>
-    <string name="graffitti2text">#8230 + "and you have been invited to Blackpool for their \nSand, Sea and Spray Art Festival"</string>
+    <string name="graffitti1text">"Don't draw on the walls!\n  Unless . .  you are an artist . . "</string>
+    <string name="graffitti2text">" . . and you have been invited to Blackpool for their \nSand, Sea and Spray Art Festival"</string>
     <string name="graffittitext">"\n\n"</string>
 
 </resources>
