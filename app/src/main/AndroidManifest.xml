@@ -16,13 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CinemaScreen" />
-        <activity android:name=".ForgottenScreen" />
-        <activity android:name=".GraffittiScreen" />
-        <activity android:name=".GrandScreen" />
-        <activity android:name=".GrundyScreen" />
-        <activity android:name=".StartScreen" />
-        <activity android:name=".TramScreen" />
 
     </application>
 

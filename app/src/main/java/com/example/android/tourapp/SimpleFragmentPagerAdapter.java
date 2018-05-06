@@ -1,18 +1,35 @@
 package com.example.android.tourapp;
 
 import android.content.Context;
+import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+
 
 /**
  * Provides the appropriate {@link Fragment} for a view pager.
  */
 public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
 
-    final int PAGE_COUNT = 4;
-    private String tabTitles[] = new String[]{"Intro", "Gallery", "Wall Art", "Theatre", "Trams", "Art Deco", "Antiques"};
-    private Context context;
+    final int PAGE_COUNT = 7;
+    private static Context context;
+
+
+//        private String tabTitles[] = new String[] {
+//            getContext().getResources().getString(R.string.tab1),
+//                getContext().getResources().getString(R.string.tab2),
+//                getContext().getResources().getString(R.string.tab3),
+//                getContext().getResources().getString(R.string.tab4),
+//                getContext().getResources().getString(R.string.tab5),
+//                getContext().getResources().getString(R.string.tab6),
+//                getContext().getResources().getString(R.string.tab7),
+//            };
+
+    private String tabTitles[] = new String[]{
+            context.getString(R.string.tab1), context.getString(R.string.tab2), context.getString(R.string.tab3), context.getString(R.string.tab4), context.getString(R.string.tab5),
+            context.getString(R.string.tab6), context.getString(R.string.tab7)};
+
 
     public SimpleFragmentPagerAdapter(FragmentManager fm) {
         super(fm);
@@ -37,14 +54,18 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
         }
     }
 
+    public Context getContext() {
+        return context;
+    }
+
     @Override
     public int getCount() {
         return 7;
     }
 
+
     @Override
     public CharSequence getPageTitle(int position) {
-        // Generate title based on item position
         return tabTitles[position];
     }
 }

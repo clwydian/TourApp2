@@ -26,5 +26,14 @@
     <string name="graffitti1text">"Don't draw on the walls!\n  Unless . .  you are an artist . . "</string>
     <string name="graffitti2text">" . . and you have been invited to Blackpool for their \nSand, Sea and Spray Art Festival"</string>
     <string name="graffittitext">"\n\n"</string>
+    <string name="tab1">"Home"</string>
+    <string name="tab2">"Gallery"</string>
+    <string name="tab3">"Wall Art"</string>
+    <string name="tab4">"Theatre"</string>
+    <string name="tab5">"Trams"</string>
+    <string name="tab6">"Art Deco"</string>
+    <string name="tab7">"Antiques"</string>
+
+
 
 </resources>
