@@ -33,21 +33,19 @@ public class CinemaScreenFrag extends Fragment {
 
 //Build our arraylist of descriptions and images so they scroll vertically on the page
 
-        final ArrayList<TextPicture> items = new ArrayList<TextPicture>();
-        items.add(new TextPicture(getString(R.string.cinema1text),R.drawable.cinema6_400));
-        items.add(new TextPicture(getString(R.string.cinema2text),R.drawable.cinema1_400));
-        items.add(new TextPicture(getString(R.string.cinema3text),R.drawable.cinema2_400));
-        items.add(new TextPicture(getString(R.string.cinematext),R.drawable.cinema3_400));
-        items.add(new TextPicture(getString(R.string.cinema4text),R.drawable.cinema4_400));
-        items.add(new TextPicture(getString(R.string.cinematext),R.drawable.cinema5_400));
+        final ArrayList<TextPicture> items = new ArrayList<>();
+        items.add(new TextPicture(getString(R.string.cinema1text), R.drawable.cinema6_400));
+        items.add(new TextPicture(getString(R.string.cinema2text), R.drawable.cinema1_400));
+        items.add(new TextPicture(getString(R.string.cinema3text), R.drawable.cinema2_400));
+        items.add(new TextPicture(getString(R.string.cinematext), R.drawable.cinema3_400));
+        items.add(new TextPicture(getString(R.string.cinema4text), R.drawable.cinema4_400));
+        items.add(new TextPicture(getString(R.string.cinematext), R.drawable.cinema5_400));
 
         // Create an {@link ItemAdapter}, whose data source is a list of {@link items}s. The
         // adapter knows how to create list items for each item in the list.
         ItemAdapter adapter = new ItemAdapter(getActivity(), items);
-
         // There is a {@link ListView} with the view ID called list, declared in textpicture_list.xml
-        ListView listView = (ListView) rootView.findViewById(R.id.list);
-
+        ListView listView = rootView.findViewById(R.id.list);
         // Make the {@link ListView} use the {@link ItemAdapter} above, so that the
         // {@link ListView} will display list items for each {@link TextPicture} in the list.
         listView.setAdapter(adapter);

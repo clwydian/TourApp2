@@ -6,13 +6,9 @@ package com.example.android.tourapp;
 public class TextPicture {
 
     /**
-     * Default translation for the word
+     * Description and PictureID for each TextPicture object
      */
     private String mdescription;
-
-    /**
-     * Image resource ID for the associated picture
-     */
     private int mPictureID;
 
     /**
@@ -21,7 +17,6 @@ public class TextPicture {
      * @param description is the descriptor for the image
      * @param pictureID   is the integer index to the associated image
      */
-
     public TextPicture(String description, int pictureID) {
         mdescription = description;
         mPictureID = pictureID;
@@ -40,6 +35,6 @@ public class TextPicture {
     public int getPictureID() {
         return mPictureID;
     }
-
 }
+
 

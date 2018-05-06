@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
 import java.util.ArrayList;
 
 
@@ -18,14 +19,10 @@ import java.util.ArrayList;
 public class ItemAdapter extends ArrayAdapter<TextPicture> {
 
     /**
-     * Resource ID for the background color for this list of words
-     */
-
-    /**
      * Create a new {@link ItemAdapter} object.
      *
-     * @param context           is the current context (i.e. Activity) that the adapter is being created in.
-     * @param items             is the list of {@link TextPicture}s to be displayed.
+     * @param context is the current context (i.e. Activity) that the adapter is being created in.
+     * @param items   is the list of {@link TextPicture}s to be displayed.
      */
     public ItemAdapter(Context context, ArrayList<TextPicture> items) {
         super(context, 0, items);
@@ -42,16 +39,12 @@ public class ItemAdapter extends ArrayAdapter<TextPicture> {
 
         // Get the {@link TextPicture} object located at this position in the list
         TextPicture currentItem = getItem(position);
-
         // Find the TextView in the list_item.xml layout with the ID description.
-        TextView description = (TextView) listItemView.findViewById(R.id.description);
-
+        TextView description = listItemView.findViewById(R.id.description);
         // Get the current description and set the text of this new object
         description.setText(currentItem.getDescription());
-
-
         // Find the ImageView in the list_item.xml layout with the ID picture.
-        ImageView picture = (ImageView) listItemView.findViewById(R.id.picture);
+        ImageView picture = listItemView.findViewById(R.id.picture);
 //        set the image in the imageview to the returned current pictireID
         picture.setImageResource(currentItem.getPictureID());
 

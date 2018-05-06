@@ -1,8 +1,8 @@
 package com.example.android.tourapp;
 
-        import android.os.Bundle;
-        import android.support.v7.app.AppCompatActivity;
-        import android.os.Bundle;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 
 public class CinemaScreen extends AppCompatActivity {
 

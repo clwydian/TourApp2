@@ -11,9 +11,8 @@ import android.support.v4.app.FragmentPagerAdapter;
 public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
 
     final int PAGE_COUNT = 4;
-    private String tabTitles[] = new String[] { "Intro", "Gallery", "Wall Art", "Theatre", "Trams","Art Deco","Antiques" };
+    private String tabTitles[] = new String[]{"Intro", "Gallery", "Wall Art", "Theatre", "Trams", "Art Deco", "Antiques"};
     private Context context;
-
 
     public SimpleFragmentPagerAdapter(FragmentManager fm) {
         super(fm);
@@ -23,17 +22,17 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         if (position == 0) {
             return new StartScreenFrag();
-        } else if (position == 1){
+        } else if (position == 1) {
             return new GrundyScreenFrag();
-        } else if (position == 2){
+        } else if (position == 2) {
             return new GraffittiScreenFrag();
-        } else if (position == 3){
+        } else if (position == 3) {
             return new GrandScreenFrag();
-        } else if (position == 4){
+        } else if (position == 4) {
             return new TramScreenFrag();
-        } else if (position == 5){
+        } else if (position == 5) {
             return new ForgottenScreenFrag();
-                    } else {
+        } else {
             return new CinemaScreenFrag();
         }
     }
