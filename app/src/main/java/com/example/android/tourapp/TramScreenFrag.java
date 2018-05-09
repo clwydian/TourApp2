@@ -20,7 +20,6 @@ import java.util.ArrayList;
  */
 public class TramScreenFrag extends Fragment {
 
-
     public TramScreenFrag() {
         // Required empty public constructor
     }
@@ -30,8 +29,8 @@ public class TramScreenFrag extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.textpicture_list, container, false);
 
-//Build our arraylist of descriptions and images so they scroll vertically on the page
-//in line below <> replaces <TextPicture> AS tells me its the same thing
+        //Build our arraylist of descriptions and images so they scroll vertically on the page
+        //in line below <> replaces <TextPicture> AS tells me its the same thing
         final ArrayList<TextPicture> items = new ArrayList<>();
         items.add(new TextPicture(getString(R.string.tram1text), R.drawable.tram2_400));
         items.add(new TextPicture(getString(R.string.tram2text), R.drawable.tram1_400));

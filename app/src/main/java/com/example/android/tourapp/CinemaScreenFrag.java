@@ -20,11 +20,9 @@ import java.util.ArrayList;
  */
 public class CinemaScreenFrag extends Fragment {
 
-
     public CinemaScreenFrag() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -32,7 +30,6 @@ public class CinemaScreenFrag extends Fragment {
         View rootView = inflater.inflate(R.layout.textpicture_list, container, false);
 
 //Build our arraylist of descriptions and images so they scroll vertically on the page
-
         final ArrayList<TextPicture> items = new ArrayList<>();
         items.add(new TextPicture(getString(R.string.cinema1text), R.drawable.cinema6_400));
         items.add(new TextPicture(getString(R.string.cinema2text), R.drawable.cinema1_400));

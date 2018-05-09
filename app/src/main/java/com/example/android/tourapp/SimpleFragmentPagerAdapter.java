@@ -20,7 +20,6 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
         mContext = context;
     }
 
-
     @Override
     public Fragment getItem(int position) {
         if (position == 0) {
@@ -44,7 +43,6 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
     public int getCount() {
         return 7;
     }
-
 
     @Override
     public CharSequence getPageTitle(int position) {

@@ -45,7 +45,7 @@ public class ItemAdapter extends ArrayAdapter<TextPicture> {
         description.setText(currentItem.getDescription());
         // Find the ImageView in the list_item.xml layout with the ID picture.
         ImageView picture = listItemView.findViewById(R.id.picture);
-//        set the image in the imageview to the returned current pictireID
+        //        set the image in the imageview to the returned current pictireID
         picture.setImageResource(currentItem.getPictureID());
 
         // Return the whole list item layout (containing 1 TextView 1 Image) so that it can be shown in

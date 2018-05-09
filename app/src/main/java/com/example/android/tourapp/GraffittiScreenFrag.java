@@ -20,7 +20,6 @@ import java.util.ArrayList;
  */
 public class GraffittiScreenFrag extends Fragment {
 
-
     public GraffittiScreenFrag() {
         // Required empty public constructor
     }
@@ -31,7 +30,6 @@ public class GraffittiScreenFrag extends Fragment {
         View rootView = inflater.inflate(R.layout.textpicture_list, container, false);
 
 //Build our arraylist of descriptions and images so they scroll vertically on the page
-
         final ArrayList<TextPicture> items = new ArrayList<>();
         items.add(new TextPicture(getString(R.string.graffitti1text), R.drawable.graffitt1_400));
         items.add(new TextPicture(getString(R.string.graffitti2text), R.drawable.graffitt2_400));

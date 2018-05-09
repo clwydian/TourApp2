@@ -30,7 +30,6 @@ public class StartScreenFrag extends Fragment {
         View rootView = inflater.inflate(R.layout.textpicture_list, container, false);
 
 //Build our arraylist of descriptions and images so they scroll vertically on the page
-
         final ArrayList<TextPicture> items = new ArrayList<>();
         items.add(new TextPicture(getString(R.string.start1text), R.drawable.startscreen1_400));
         items.add(new TextPicture(getString(R.string.start2text), R.drawable.startscreen1_400));
@@ -53,4 +52,3 @@ public class StartScreenFrag extends Fragment {
         super.onStop();
     }
 }
-
