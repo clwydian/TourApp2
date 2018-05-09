@@ -13,27 +13,13 @@ import android.support.v4.app.FragmentPagerAdapter;
 public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
 
     final int PAGE_COUNT = 7;
-    private static Context context;
+    private Context mContext;
 
-
-//        private String tabTitles[] = new String[] {
-//            getContext().getResources().getString(R.string.tab1),
-//                getContext().getResources().getString(R.string.tab2),
-//                getContext().getResources().getString(R.string.tab3),
-//                getContext().getResources().getString(R.string.tab4),
-//                getContext().getResources().getString(R.string.tab5),
-//                getContext().getResources().getString(R.string.tab6),
-//                getContext().getResources().getString(R.string.tab7),
-//            };
-
-    private String tabTitles[] = new String[]{
-            context.getString(R.string.tab1), context.getString(R.string.tab2), context.getString(R.string.tab3), context.getString(R.string.tab4), context.getString(R.string.tab5),
-            context.getString(R.string.tab6), context.getString(R.string.tab7)};
-
-
-    public SimpleFragmentPagerAdapter(FragmentManager fm) {
+    public SimpleFragmentPagerAdapter(Context context, FragmentManager fm) {
         super(fm);
+        mContext = context;
     }
+
 
     @Override
     public Fragment getItem(int position) {
@@ -54,10 +40,6 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
         }
     }
 
-    public Context getContext() {
-        return context;
-    }
-
     @Override
     public int getCount() {
         return 7;
@@ -66,6 +48,20 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public CharSequence getPageTitle(int position) {
-        return tabTitles[position];
+        if (position == 0) {
+            return mContext.getString(R.string.tab1);
+        } else if (position == 1) {
+            return mContext.getString(R.string.tab2);
+        } else if (position == 2) {
+            return mContext.getString(R.string.tab3);
+        } else if (position == 3) {
+            return mContext.getString(R.string.tab4);
+        } else if (position == 4) {
+            return mContext.getString(R.string.tab5);
+        } else if (position == 5) {
+            return mContext.getString(R.string.tab6);
+        } else {
+            return mContext.getString(R.string.tab7);
+        }
     }
 }
