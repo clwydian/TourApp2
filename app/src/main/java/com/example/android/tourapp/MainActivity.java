@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         final ActionBar actionBar = getActionBar();
-
         super.onCreate(savedInstanceState);
 
         // Set the content of the activity to use the activity_main.xml layout file
