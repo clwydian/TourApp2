@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
+        
         final ActionBar actionBar = getActionBar();
         super.onCreate(savedInstanceState);
 
